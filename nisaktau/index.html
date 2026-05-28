@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NIS Aktau</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__logo">
+        <img src="logo.png" alt="NIS Aktau Logo" />
+        <span>NIS Aktau</span>
+      </div>
+      <div class="nav__links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#ecosystem">Ecosystem</a>
+        <a href="#resources">Resources</a>
+        <a href="#contacts">Contacts</a>
+        <input type="text" placeholder="Search" />
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Nazarbayev Intellectual School in Aktau</h1>
+        <p>We strive to build intellectual capacity nationally and globally by combining the best of national and international experience.</p>
+        <a href="#about" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="section section--grey" id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>Brief description of NIS Aktau — history, vision, and mission.</p>
+        <ul class="value-list">
+          <li>Vision: To be a world-class centre of academic excellence.</li>
+          <li>Mission: Developing a new generation of intellectually gifted leaders.</li>
+          <li>Core Values: Integrity, Innovation, Respect, Collaboration.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Primary School</h3>
+            <p>A strong foundation built on curiosity, creativity, and critical thinking across core subjects.</p>
+          </article>
+          <article class="card">
+            <h3>Secondary School</h3>
+            <p>Rigorous academic programmes aligned with national and international standards.</p>
+          </article>
+          <article class="card">
+            <h3>Co-Curricular Activities</h3>
+            <p>Clubs, sports teams, olympiads, and extracurricular offerings for every interest.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--grey" id="ecosystem">
+      <div class="container">
+        <h2>Ecosystem</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>NIS Network</h3>
+            <p>Part of the Nazarbayev Intellectual Schools network spanning across Kazakhstan.</p>
+          </article>
+          <article class="card">
+            <h3>Partnerships</h3>
+            <p>International and local partnerships that enrich the school experience and open global doors.</p>
+          </article>
+          <article class="card">
+            <h3>Community</h3>
+            <p>An engaged community of alumni, parents, and educators invested in student success.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resources">
+      <div class="container">
+        <h2>Resources</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Latest News</h3>
+            <time datetime="2026-06-01">June 1, 2026</time>
+            <p>NIS Aktau students win gold at the national science olympiad held in Almaty.</p>
+          </article>
+          <article class="card">
+            <h3>Upcoming Event</h3>
+            <time datetime="2026-06-15">June 15, 2026</time>
+            <p>Annual open day for prospective students and their families. Registration now open.</p>
+          </article>
+          <article class="card">
+            <h3>Publication</h3>
+            <time datetime="2026-05-20">May 20, 2026</time>
+            <p>Download the latest school newsletter covering this semester's highlights.</p>
+          </article>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img src="/Users/almaz/Desktop/portfolio/nisaktau/img5.webp" alt="Science Fair 2026" />
+            <figcaption>Science Fair 2026</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="/Users/almaz/Desktop/portfolio/nisaktau/img2.jpeg" alt="Sports Day" />
+            <figcaption>Sports Day</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="/Users/almaz/Desktop/portfolio/nisaktau/img3.png" alt="Graduation Ceremony" />
+            <figcaption>Graduation Ceremony</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="/Users/almaz/Desktop/portfolio/nisaktau/img3.webp" alt="Cultural Festival" />
+            <figcaption>Cultural Festival</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="section section--grey" id="contacts">
+      <div class="container">
+        <h2>Contacts</h2>
+        <div class="contact">
+          <address class="contact__info">
+            <p>Aktau, Kazakhstan, Microdistrict 14</p>
+            <p>Phone: <a href="tel:+77001234567">+7 700 123 4567</a></p>
+            <p>Email: <a href="mailto:info@nis-aktau.kz">info@nis-aktau.kz</a></p>
+          </address>
+          <form class="contact__form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Nazarbayev Intellectual School in Aktau. All rights reserved.</p>
+    <nav class="footer__nav">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#ecosystem">Ecosystem</a>
+      <a href="#resources">Resources</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
