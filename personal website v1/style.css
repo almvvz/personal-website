@@ -95,6 +95,12 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    transition: transform 0.4s ease;
+    display: inline-block;
+}
+
+.hero-name span:hover {
+    transform: scale(1.2);
 }
 
 .hero-sub {
@@ -271,7 +277,7 @@ header {
 }
 .about-photo img{
     width: 160px;
-    height: 140px;
+    height: 130px;
     border-radius: 50%;
     background: rgba(61, 110, 255, 0.1);
     border: 2px solid rgba(61, 110, 255, 0.25);
