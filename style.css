@@ -39,7 +39,7 @@ header {
     transform: translateY(-2px);
 }
 
-/* ── LANDING ── */
+
 #home {
     height: 100vh;
     display: flex;
@@ -276,7 +276,7 @@ header {
     transition: border-color 0.3s, background 0.3s;
 }
 .about-photo img{
-    width: 160px;
+    width: 130px;
     height: 130px;
     border-radius: 50%;
     background: rgba(61, 110, 255, 0.1);
@@ -288,6 +288,7 @@ header {
     font-weight: 700;
     color: #3d6eff;
     transition: border-color 0.3s, background 0.3s;
+    object-fit: cover;
 }
 .about-photo:hover {
     background: rgba(61, 110, 255, 0.18);
